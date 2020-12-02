@@ -1,0 +1,39 @@
+body {
+    font-family: 'Merriweather', serif;
+    background: #f8f8f8;
+    color: #999999;
+}
+
+.upper-header {
+    font-size: 12px;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.upper-header-title {
+    padding: 15px 0;
+}
+.upper-header span {
+    color: #424242;
+}
+
+.social-icons {
+    border-right: 1px solid #cfcfcf;
+    border-left: 1px solid #cfcfcf;
+    display: flex;
+    justify-content: center;
+    padding: 18px 0;
+}
+
+.social-icons i {
+    padding-right: 7px;
+    padding-left: 7px;
+    border-right: 1px solid #e3e3e3;
+}
+.social-icons i:last-child {
+    border-right: none;
+}
+
+
+.social-icons i:hover {
+    color: #ff9311;
+}
