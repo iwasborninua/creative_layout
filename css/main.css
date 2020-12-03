@@ -96,6 +96,11 @@ footer-social-icons i:last-child {
     margin: 0;
 }
 
+.article-caption {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 .article-image {
     background-color: #959595;
     width: 100%;
@@ -208,6 +213,11 @@ footer p {
     margin: 30px 0;
 }
 
+.post-description {
+    color: #424242;
+}
+
+
 .catagorie {
     padding: 20px;
     border: 1px solid #e5e5e5;
@@ -215,4 +225,17 @@ footer p {
 
 .catagorie a {
     color: #424242;
+}
+
+.widget-body {
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+}
+
+.carousel {
+    height: 150px;
+}
+
+.carousel-indicators {
+    display: none;
 }
