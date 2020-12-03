@@ -16,6 +16,13 @@ header {
     margin-bottom: 100px;
 }
 
+.upper-header .description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 .upper-header {
     font-size: 12px;
     border-bottom: 1px solid #cfcfcf;
@@ -62,7 +69,11 @@ footer-social-icons i:last-child {
 }
 
 .bottom-header .navbar-brand {
-    padding: 5px 15px;
+    padding: 5px 15px 5px 0;
+}
+
+.bottom-header .container {
+    padding-right: 0px;
 }
 
 .bottom-header a {
