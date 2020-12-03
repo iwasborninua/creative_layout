@@ -92,7 +92,7 @@ footer-social-icons i:last-child {
     border-radius: 0;
 }
 
-.article-caption {
+.article-caption, .catagories-caption, .widget-caption {
     margin: 0;
 }
 
@@ -177,14 +177,18 @@ footer p {
 
 
 .card-post {
-    padding: 20px;
+    padding: 20px 30px 20px 20px;
 }
 
 .card-post {
     border: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
 }
 
-.recent-post .post-caption  {
+
+
+.recent-post .post-caption, .catagories-caption, .widget-caption{
     color: #424242;
     padding: 18px;
     border: 1px solid #c2c2c2;
@@ -200,3 +204,15 @@ footer p {
     margin: 0;
 }
 
+.catagories {
+    margin: 30px 0;
+}
+
+.catagorie {
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+}
+
+.catagorie a {
+    color: #424242;
+}
