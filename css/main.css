@@ -86,8 +86,12 @@ footer-social-icons i:last-child {
     color: #fff !important;
 }
 
-.bottom-header .navbar-right a:hover {
+.bottom-header .navbar-right li {
     background: #ff9311 !important;
+}
+
+.bottom-header .navbar-right li:focus {
+    background: #424242;
 }
 
 .navbar-default .navbar-nav > .active > a,
